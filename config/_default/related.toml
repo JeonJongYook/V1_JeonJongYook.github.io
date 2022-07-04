@@ -1,0 +1,12 @@
+# Related contents configuration
+includeNewer = true
+threshold = 60
+toLower = false
+
+[[indices]]
+name = "태그"
+weight = 100
+
+[[indices]]
+name = "카테고리"
+weight = 200

@@ -1,0 +1,13 @@
+# Uncomment this file to enable multilanguage site support
+
+#[en]
+#languageName = "English"
+#languagedirection = "ltr"
+#title = "Example Site"
+#weight = 1
+
+#[en]
+#languageName = "korea"
+#languagedirection = "ltr"
+#title = "종욱의 개발 블로그"
+#weight = 2

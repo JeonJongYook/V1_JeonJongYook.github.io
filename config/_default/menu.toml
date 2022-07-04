@@ -1,0 +1,34 @@
+# Configure main menu and social menu
+#[[main]]
+#identifier = "home"
+#name = "Home"
+#url = "/"
+#[main.params]
+#icon = "home"
+#newtab = true
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/JeonJongYook"
+
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "instagram"
+name = "instagram"
+url = "https://instagram.com/w._.hddnr_19/"
+
+[social.params]
+icon = "brand-instagram"
+
+[[social]]
+identifier = "notion"
+name = "notion"
+url = "https://jongyook.notion.site/Hello-My-name-is-JeonJongWook-b27ca3d38fc5428f9c924561bfe656d8"
+
+[social.params]
+icon = "brand-notion"
+
+

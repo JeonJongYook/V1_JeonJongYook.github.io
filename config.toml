@@ -1,0 +1,8 @@
+baseURL = 'https://jeonjongyook.github.io/jeonjongyook.github.io/'
+languageCode = 'en-us'
+title = '종욱의 개발블로그'
+        
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  subcategory = "subcategories" 
