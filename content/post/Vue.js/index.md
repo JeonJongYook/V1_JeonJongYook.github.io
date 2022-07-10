@@ -2,7 +2,6 @@
 title: Vue.js
 description: Vue.js라는 언어는 무엇일까?
 slug: start-Vue
-# date: Sat, 29 Jan 2022 09:24:37 +0900
 date: 2022-02-10
 image: 
 categories:

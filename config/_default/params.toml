@@ -7,10 +7,6 @@ rssFullContent = true
 since = 2022
 customText = ""
 
-[dateFormat]
-published = "Jun 20, 2022"
-lastUpdated = "Jun 20, 2022 17:25 MST"
-
 [sidebar]
 emoji = "🍥"
 subtitle = "새로운 환경에 두려워 하지 말자   "
@@ -36,19 +32,19 @@ type = "search"
 type = "archives"
 
 [widgets.homepage.params]
-limit = 10
+limit = 5
 
 [[widgets.homepage]]
 type = "categories"
 
 [widgets.homepage.params]
-limit = 10
+limit = 5
 
 [[widgets.homepage]]
 type = "tag-cloud"
 
 [widgets.homepage.params]
-limit = 10
+limit = 5
 
 [[widgets.page]]
 type = "toc"

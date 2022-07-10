@@ -2,7 +2,6 @@
 title: 개발블로그의 시작
 description: 고등학생 개발자의 개발블로그
 slug: start-devblog
-# date: Sat, 29 Jan 2022 09:24:37 +0900
 date: 2022-06-29
 image: 
 categories:

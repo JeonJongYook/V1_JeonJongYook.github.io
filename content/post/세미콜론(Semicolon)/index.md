@@ -2,7 +2,6 @@
 title: 세미콜론(Semicolon) - 누구나, 다같이
 description: 고등학생 개발자의 첫 서비스
 slug: start-service
-# date: Sat, 29 Jan 2022 09:24:37 +0900
 date: 2022-02-10
 image: 
 categories:
