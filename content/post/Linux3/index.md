@@ -2,7 +2,7 @@
 title: Linux공부 제 3장
 description: Linux(Ubuntu) 명령어 정리
 slug: start-Linux3
-date: 2022-07-19
+date: 2022-07-20
 image: 
 categories:
     - Linux
@@ -11,6 +11,10 @@ tags:
 ---
 
 ---
+
+## Linux 명령어 정리
+
+
 ### 파일 관련 명령어
 
 #### 빈 파일 생성
@@ -102,57 +106,9 @@ apt-get remove [패키지명] : 특정 [패키지명] 삭제
 wget -0 [저장할 파일명] [다운로드 url]
 ```
 
-#### 
-```shell
+[//]: # (#### )
 
-```
+[//]: # (```shell)
 
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
-
-#### 
-```shell
-
-```
+[//]: # ()
+[//]: # (```)
