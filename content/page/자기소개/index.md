@@ -1,6 +1,6 @@
 ---
 title: 안녕하십니까 새로운 환경에 두려워 하지 않는 FE개발자가 되고 싶은 전종욱입니다.
-date: 2022-06-27
+date: 2022-12-06
 menu:
     main: 
         weight: 6
@@ -15,11 +15,11 @@ Education : 인천전자마이스터고등학교 3학년 재학중
 
 Military : 미정
 
-Email : jggen0121@naver.com
+Email : jggen0121@naver.com / jggen0121@koolsign.net
 
-phone : 010-2993-8732
+phone : 010-2993-8732 / 02-6295-8079
 
-Working : Koolsign Co.,Ltd (현장 실습 중)
+Working : Koolsign Co.Ltd
 
 ## 📣 Introduction
 
