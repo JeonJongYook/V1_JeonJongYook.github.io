@@ -29,13 +29,13 @@ Working : Koolsign Co.Ltd
 
 ### Semicolon - 누구나, 다같이
 
-* 목표 : 친구들과 간단한 대화로 하루의 기분과 감정, 일상을 공유 하면서 학교 생활을 점점 더 즐겁게 지낼 수 있는 SNS 커뮤니티
+* 목표 : 친구들과의 대화로 하루의 기분과 과제, 일상을 공유 하면서 학교 생활을 점점 더 즐겁게 지낼 수 있는 SNS 커뮤니티
 * 주요 업무 : Front-End 개발, 웹 기획
 * 사용 언어 : Vue.js, BootStrap, Spring Boot, Node.js
 * 적용기술 :
     * Spring Boot (RestAPI, JPA)
     * Security 적용완료
-* 서비스 기간 : 제작중
+* 서비스 여부 : 제작중
 
 [Github Profile](https://github.com/jeonjongyook) / 
 [Github Reposistories](https://github.com/jeonjongyook/SemiColon) 
@@ -49,4 +49,4 @@ Working : Koolsign Co.Ltd
 * 적용기술 :
     * Spring Boot (RestAPI, JPA)
     * Security 적용완료
-* 서비스 기간 : 제작중
+* 서비스 여부 : 제작중
