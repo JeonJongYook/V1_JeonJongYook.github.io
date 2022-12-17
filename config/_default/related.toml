@@ -7,6 +7,14 @@ toLower = false
 name = "태그"
 weight = 100
 
+[[indices.en]]
+name = "TAGS"
+weight = 100
+
 [[indices]]
 name = "카테고리"
+weight = 200
+
+[[indices]]
+name = "CATEGORY"
 weight = 200
