@@ -1,0 +1,3 @@
+# Permalinks format of each content section
+post = "/en/p/:slug/"
+page = "/en/:slug/"

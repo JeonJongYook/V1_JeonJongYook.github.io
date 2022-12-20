@@ -3,8 +3,7 @@
 [en]
 languageName = "EN"
 languagedirection = "ltr"
-title = "Jongwook's blog development"
-sidebar.subtitle = "Don't be afraid of a new environment"
+title = "Jongwook's dev blog"
 weight = 1
 
 [ko]
