@@ -14,16 +14,6 @@ menu:
 comments: false
 ---
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-`image` field accepts both local and external images.
-
+## Linux
+#### [Vim 시작하기](https://opentutorials.org/course/730/4559)
+#### [MDN 시작하기](https://developer.mozilla.org/ko)

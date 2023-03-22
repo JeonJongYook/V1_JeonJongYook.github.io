@@ -5,4 +5,7 @@ title = '종욱의 개발블로그'
 [taxonomies]
   category = "categories"
   tag = "tags"
-  subcategory = "subcategories" 
+  subcategory = "subcategories"
+
+[[module.imports]]
+path = "github.com/CaiJimmy/hugo-theme-stack/v3"

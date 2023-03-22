@@ -11,13 +11,13 @@ menu:
 
 ## 📢 Information
 
-Education : 인천전자마이스터고등학교 3학년 재학중 (23년 1월 졸업예정)
+Education : 인천전자마이스터고등학교 11기 졸업 (2023년 1월)
 
-Military : 미정
+Military : 병역특례 대상 선정
 
-Email : jggen0121@naver.com / jggen0121@koolsign.net
+Email : jggen0121@naver.com
 
-phone : 010-2993-8732 / 02-6295-8079
+phone : 010-2993-8732
 
 Working : Koolsign Co.Ltd
 
@@ -27,7 +27,7 @@ Working : Koolsign Co.Ltd
 
 ## 🎨 Making Service
 
-### Semicolon - 누구나, 다같이
+### Semicolon - 누구나, 다함께
 
 * 목표 : 친구들과의 대화로 하루의 기분과 과제, 일상을 공유 하면서 학교 생활을 점점 더 즐겁게 지낼 수 있는 SNS 커뮤니티
 * 주요 업무 : Front-End 개발, 웹 기획
@@ -43,7 +43,7 @@ Working : Koolsign Co.Ltd
 
 ### 119State - 빠르게, 확실하게 
 
-* 목표 : 연도가 지날수록 응급구조 신고건수는 늘고 있다. 생명이 위급한 환자에게 가장 중요한것은 빠른 병원 이송이라고 생각하여 만들게된 병원 현황사이트
+* 목표 : 연도가 지날수록 응급구조 신고건수는 늘고 있다. 생명이 위급한 환자에게 가장 중요한것은 빠른 병원 이송이라고 판단되어 만들게된 병원 현황사이트
 * 주요 업무 : Full 개발
 * 사용 언어 : HTML, BootStrap, Spring Boot, Node.js
 * 적용기술 :

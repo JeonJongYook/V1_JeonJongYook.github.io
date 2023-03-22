@@ -1,6 +1,6 @@
 # Change baseurl before deploy
 baseurl = "https://jeonjongyook.github.io"
-languageCode = "en-us"
+languageCode = "ko-KR"
 paginate = 10
 title = "종욱의 개발 블로그"
 

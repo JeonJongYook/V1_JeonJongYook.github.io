@@ -31,4 +31,11 @@ url = "https://junjonguk.notion.site/Hello-My-name-is-JeonJongWook-490b3b38af054
 [social.params]
 icon = "brand-notion"
 
+[[social]]
+identifier = "survey"
+name = "notion"
+url = "https://fytpj397gp2.typeform.com/to/vErHgicX"
+
+[social.params]
+icon = "messages"
 
