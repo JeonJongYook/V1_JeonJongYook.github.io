@@ -7,22 +7,10 @@ toLower = false
 name = "북마크"
 weight = 100
 
-[[indices.en]]
-name = "BOOKMARKS"
-weight = 100
-
 [[indices]]
 name = "태그"
 weight = 200
 
-[[indices.en]]
-name = "TAGS"
-weight = 200
-
 [[indices]]
 name = "카테고리"
-weight = 300
-
-[[indices.en]]
-name = "CATEGORY"
 weight = 300
