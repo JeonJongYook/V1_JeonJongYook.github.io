@@ -23,31 +23,48 @@ Working : Koolsign Co.Ltd
 
 ## 📣 Introduction
 
-Although my career may be meager, I am proud that I have more experience than anyone else. The project mainly used Spring Boot to develop various customer service front-ends such as Sns Community and Submit. I like to challenge new environments. I feel the charm of the luff coding style, and since 2021, all development is raising skills so that users and administrators can develop in a comfortable environment at the same time.
+I love trying new environments and my dream is to be a developer who writes code that changes the world.
+I was fascinated by the simple coding style, and from 2021, I am cultivating my ability so that all development can be done in a comfortable environment for both User and Administrator at the same time.
 
-## 🎨 Making Service
+[//]: # (## 🎨 Making Service)
 
-### Semicolon - Everyone, Together
+[//]: # ()
+[//]: # (### Semicolon - Everyone, Together)
 
-* Objective : An SNS community where you can enjoy your school life more and more while sharing your daily mood, tasks, and daily life through conversations with friends.
-* Main task : Front-end development, web planning
-* Language spoken : Vue.js, BootStrap, Spring Boot, Node.js
-* Applied technology :
-    * Spring Boot (RestAPI, JPA)
-    * Security Application complete
-* Service or not : in production
+[//]: # ()
+[//]: # (* Objective : An SNS community where you can enjoy your school life more and more while sharing your daily mood, tasks, and daily life through conversations with friends.)
 
-[//]: # ([Github Profile]&#40;https://github.com/jeonjongyook&#41; / )
+[//]: # (* Main task : Front-end development, web planning)
 
-[//]: # ([Github Reposistories]&#40;https://github.com/jeonjongyook/SemiColon&#41; )
+[//]: # (* Language spoken : Vue.js, BootStrap, Spring Boot, Node.js)
 
+[//]: # (* Applied technology :)
 
-### 119State - Quickly and Surely
+[//]: # (    * Spring Boot &#40;RestAPI, JPA&#41;)
 
-* Objective : As the years go by, the number of emergency rescue calls is increasing. A hospital status site created by thinking that the most important thing for a patient in a life-threatening situation is speedy hospital transfer.
-* Main task : Full development
-* Language spoken : HTML, BootStrap, Spring Boot, Node.js
-* Applied technology :
-    * Spring Boot (RestAPI, JPA)
-    * Security Application complete
-* Service or not : in production
+[//]: # (    * Security Application complete)
+
+[//]: # (* Service or not : in production)
+
+[//]: # ()
+[//]: # ([//]: # &#40;[Github Profile]&#40;https://github.com/jeonjongyook&#41; / &#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;[Github Reposistories]&#40;https://github.com/jeonjongyook/SemiColon&#41; &#41;)
+[//]: # ()
+[//]: # ()
+[//]: # (### 119State - Quickly and Surely)
+
+[//]: # ()
+[//]: # (* Objective : As the years go by, the number of emergency rescue calls is increasing. A hospital status site created by thinking that the most important thing for a patient in a life-threatening situation is speedy hospital transfer.)
+
+[//]: # (* Main task : Full development)
+
+[//]: # (* Language spoken : HTML, BootStrap, Spring Boot, Node.js)
+
+[//]: # (* Applied technology :)
+
+[//]: # (    * Spring Boot &#40;RestAPI, JPA&#41;)
+
+[//]: # (    * Security Application complete)
+
+[//]: # (* Service or not : in production)
