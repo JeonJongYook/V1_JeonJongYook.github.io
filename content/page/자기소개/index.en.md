@@ -1,6 +1,6 @@
 ---
 title: Hello, I am Jeon Jong-wook, a Web developer who is not afraid of new environments.
-date: 2022-12-07
+date: 2023-03-27
 menu:
     main: 
         weight: 6
@@ -11,15 +11,15 @@ menu:
 
 ## 📢 Information
 
-Education : Incheon Electronic Meister High School 3rd grade (scheduled to graduate in January 2023)
+Education : Incheon Electronic Meister High School 11th class graduation (January 2023)
 
-Military : Undefined
+Military : Selected for special military service
 
-Email : jggen0121@naver.com / jggen0121@koolsign.net
+Email : jggen0121@naver.com
 
-phone : 010-2993-8732 / 02-6295-8079
+phone : 010-2993-8732
 
-Working : Koolsign Co.Ltd
+Work : Working by [Koolsign](http://www.koolsign.net/)
 
 ## 📣 Introduction
 
