@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>종욱의 개발 블로그</title><link>https://jeonjongyook.github.io/</link><description>Recent content on 종욱의 개발 블로그</description><generator>Hugo -- gohugo.io</generator><language>ko-KR</language><lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jeonjongyook.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>안녕하십니까 새로운 환경에 두려워 하지 않는 웹 개발자 전종욱입니다.</title><link>https://jeonjongyook.github.io/%EC%95%88%EB%85%95%ED%95%98%EC%8B%AD%EB%8B%88%EA%B9%8C-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%99%98%EA%B2%BD%EC%97%90-%EB%91%90%EB%A0%A4%EC%9B%8C-%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%A0%84%EC%A2%85%EC%9A%B1%EC%9E%85%EB%8B%88%EB%8B%A4./</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/%EC%95%88%EB%85%95%ED%95%98%EC%8B%AD%EB%8B%88%EA%B9%8C-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%99%98%EA%B2%BD%EC%97%90-%EB%91%90%EB%A0%A4%EC%9B%8C-%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%A0%84%EC%A2%85%EC%9A%B1%EC%9E%85%EB%8B%88%EB%8B%A4./</guid><description>&lt;h2 id="-information">📢 Information&lt;/h2>
+&lt;p>Education : 인천전자마이스터고등학교 11기 졸업 (2023년 1월)&lt;/p>
+&lt;p>Military : 병역특례 대상 선정&lt;/p>
+&lt;p>Email : &lt;a class="link" href="mailto:jggen0121@naver.com" >jggen0121@naver.com&lt;/a>&lt;/p>
+&lt;p>Phone : &lt;em>010-2993-8732&lt;/em>&lt;/p>
+&lt;p>Work : &lt;a class="link" href="http://www.koolsign.net/" target="_blank" rel="noopener"
+>Koolsign&lt;/a>에서 근무중 (&lt;em>2022.09.01&lt;/em>~&lt;em>현재&lt;/em>)&lt;/p>
+&lt;h2 id="-introduction">📣 Introduction&lt;/h2>
+&lt;p>새로운 환경에 도전하는 것을 좋아하고, 세상을 바꾸는 코드를 작성하는 개발자가 되는 것이 꿈 입니다.
+Luff한 코딩스타일에 매력을 느껴 2021년부터 모든 개발은 User와 Administrator가 동시에 편한 환경으로 개발할 수 있도록 실력을 키우고 있습니다.&lt;/p></description></item><item><title>Linux공부 제 3장</title><link>https://jeonjongyook.github.io/post/start-linux3/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-linux3/</guid><description>&lt;hr>
+&lt;h2 id="linux-명령어-정리">Linux 명령어 정리&lt;/h2>
+&lt;h3 id="파일-관련-명령어">파일 관련 명령어&lt;/h3>
+&lt;h4 id="빈-파일-생성">빈 파일 생성&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">touch &lt;span class="o">[&lt;/span> 파일명 &lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="파일-삭제">파일 삭제&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">rm &lt;span class="o">[&lt;/span> 파일명 &lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="파일-복사">파일 복사&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">cp &lt;span class="o">[&lt;/span>파일경로 및 파일이름&lt;span class="o">]&lt;/span> &lt;span class="o">[&lt;/span>원하는 경로 및 파일이름&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="파일-이동-이름-변경시에도-사용">파일 이동 (이름 변경시에도 사용)&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">mv &lt;span class="o">[&lt;/span>파일경로 및 파일이름&lt;span class="o">]&lt;/span> &lt;span class="o">[&lt;/span>원하는 경로 및 파일이름&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="o">[&lt;/span>원래 파일 이름&lt;span class="o">]&lt;/span> &lt;span class="o">[&lt;/span>원하는 파일 이름&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="파일-생성-및-기존-파일-수정nano-editor">파일 생성 및 기존 파일 수정(nano Editor)&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">nano &lt;span class="o">[&lt;/span>파일명&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="파일-내용-보기">파일 내용 보기&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">cat &lt;span class="o">[&lt;/span>파일명&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="파일-위치-검색">파일 위치 검색&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">locate *.&lt;span class="o">[&lt;/span>확장자명&lt;span class="o">]&lt;/span> : &lt;span class="o">[&lt;/span>확장자명&lt;span class="o">]&lt;/span>을 가진 파일 찾기 - 디렉토리가 아닌 데이터베이스에서 찾는다.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">find . *.&lt;span class="o">[&lt;/span>확장자명&lt;span class="o">]&lt;/span> : &lt;span class="o">[&lt;/span>확장자명&lt;span class="o">]&lt;/span>을 가진 파일 찾기 - 디렉토리에서 찾는다.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">whereis ls : 실행파일 위치 찾기
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">whereis rm : 실행파일 위치 찾기
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="현재-경로-확인">현재 경로 확인&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">pwd&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="명령창-내용-삭제">명령창 내용 삭제&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">clear
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="명령어-도움말-확인">명령어 도움말 확인&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>명령어&lt;span class="o">]&lt;/span> --help
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">man &lt;span class="o">[&lt;/span>명령어&lt;span class="o">]&lt;/span> :/&lt;span class="o">[&lt;/span>찾고싶은단어&lt;span class="o">]&lt;/span> 까지 옵션을 사용해서 특정 단어 찾기 가능, 그 상태를 유지한 상태로 n을 누르면 n이 들어간 단어 찾기 실행
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="패키지-매니저">패키지 매니저&lt;/h3>
+&lt;h4 id="패키지-목록-업데이트">패키지 목록 업데이트&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt-get update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="패키지-찾기">패키지 찾기&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt-cache search &lt;span class="o">[&lt;/span>패키지명&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="패키지-설치">패키지 설치&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt-get install &lt;span class="o">[&lt;/span>패키지명&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="패키지-업그레이드">패키지 업그레이드&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt-get upgrade : 패키지 목록에 있는 모든 패키지 업데이트
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">apt-get upgrade &lt;span class="o">[&lt;/span>패키지명&lt;span class="o">]&lt;/span> : 특정 &lt;span class="o">[&lt;/span>패키지명&lt;span class="o">]&lt;/span>만 업데이트
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="패키지-삭제">패키지 삭제&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt-get remove &lt;span class="o">[&lt;/span>패키지명&lt;span class="o">]&lt;/span> : 특정 &lt;span class="o">[&lt;/span>패키지명&lt;span class="o">]&lt;/span> 삭제
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="다운로드">다운로드&lt;/h3>
+&lt;h4 id="파일-다운로드-wget-사용">파일 다운로드 (wget 사용)&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">wget -0 &lt;span class="o">[&lt;/span>저장할 파일명&lt;span class="o">]&lt;/span> &lt;span class="o">[&lt;/span>다운로드 url&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Linux공부 제 2장</title><link>https://jeonjongyook.github.io/post/start-linux2/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-linux2/</guid><description>&lt;hr>
+&lt;h3 id="linuxubuntu-공식-홈페이지-접속">Linux(Ubuntu) 공식 홈페이지 접속&lt;/h3>
+&lt;p>부팅 시 필요한 USB 준비(16GB이상) 빠른 포맷으로 포맷&lt;/p>
+&lt;h3 id="우분투-사이트에서-설치용-iso-파일을-다운로드">우분투 사이트에서 설치용 iso 파일을 다운로드&lt;/h3>
+&lt;p>&lt;a class="link" href="https://ubuntu.com/#download" target="_blank" rel="noopener"
+>사이트 URL&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://jeonjongyook.github.io/post/start-linux2/homepage.png"
+width="254"
+height="203"
+srcset="https://jeonjongyook.github.io/post/start-linux2/homepage_hu4d0207d2b3583a334742276f2d174a0c_5944_480x0_resize_box_3.png 480w, https://jeonjongyook.github.io/post/start-linux2/homepage_hu4d0207d2b3583a334742276f2d174a0c_5944_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="참고 사진"
+class="gallery-image"
+data-flex-grow="125"
+data-flex-basis="300px"
+>&lt;/p>
+&lt;p>2022년 7월 19일 기준&lt;/p>
+&lt;p>다운로드 파일 정보 : 3.4G&lt;/p>
+&lt;h3 id="usb-installer를-다운로드한-후-설치-파일을-실행">USB installer를 다운로드한 후 설치 파일을 실행&lt;/h3>
+&lt;p>&lt;a class="link" href="https://universal-usb-installer.kr.uptodown.com/windows/download" target="_blank" rel="noopener"
+>사이트 URL&lt;/a>
+&lt;img src="https://jeonjongyook.github.io/post/start-linux2/homepage2.png"
+width="763"
+height="553"
+srcset="https://jeonjongyook.github.io/post/start-linux2/homepage2_hu063150f5ecc6a24890033b5b3fe67f44_213624_480x0_resize_box_3.png 480w, https://jeonjongyook.github.io/post/start-linux2/homepage2_hu063150f5ecc6a24890033b5b3fe67f44_213624_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="참고 사진"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="331px"
+>&lt;/p>
+&lt;h3 id="리눅스-설치할-디스크-드라이브-구성-및-용량-할당">리눅스 설치할 디스크 드라이브 구성 및 용량 할당&lt;/h3>
+&lt;blockquote>
+&lt;ol>
+&lt;li>제어판으로 가서 시스템 및 보안 - 관리 도구 하드 디스크 파티션 만들기 및 포맷을 클릭&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>용도에 따라서 다를 수 있겠지만 해당 OS를 전문적인 서버용으로 사용할 생각이 없다면 기존 C드라이브에 할당된 60기가 정도를 할당하여 리눅스용 디스크로 사용해도 무방함 (최소 요구사항은 만족)&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>기존 C드라이브를 선택 후 마우스 오른쪽을 클릭하면 볼륨 축소 메뉴 클릭&lt;/li>
+&lt;li>축소할 공간 입력 란에 60GB(60000) 입력&lt;/li>
+&lt;li>Window OS 종료 설정 및 BIOS 설정 에서 Secure Boot 옵션 변경하기&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>제어판 &amp;gt; 하드웨어 및 소리 &amp;gt; 전원 옵션 &amp;gt; 시스템 설정&lt;/li>
+&lt;li>빠른 시작 켜기 해제 (OFF)&lt;/li>
+&lt;/ul>
+&lt;ol start="5">
+&lt;li>Window 다시 시작 후 F2 연타 ( PC별로 다를 수 있음 )&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Security -&amp;gt; Secure Boot Configuration&lt;/li>
+&lt;li>Secure Boot Option 을 Disabled로 변경&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
+&lt;li>재시작 후 BIOS 메뉴에서 부팅 우선순위 바꾸기&lt;/li>
+&lt;li>BIOS 메뉴에서 리눅스 OS 설치용 USB가 우선순위 1로 되도록 우선순위 변경 후 저장&lt;/li>
+&lt;li>Install Ubuntu 클릭 및 언어 선택란에 한국어 클릭&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://dreamdeveloper403.tistory.com/28?category=824174" target="_blank" rel="noopener"
+>참고링크&lt;/a>&lt;/p></description></item><item><title>Linux공부 제 1장</title><link>https://jeonjongyook.github.io/post/start-linux/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-linux/</guid><description>&lt;hr>
+&lt;h2 id="linux">Linux&lt;/h2>
+&lt;p>리눅스(Linux)는 컴퓨터 운영체제의 한 종류이자, 커널 자체를 의미합니다.&lt;/p>
+&lt;h3 id="특징">특징&lt;/h3>
+&lt;ol>
+&lt;li>소스 코드가 공개되어있는 ‘자유 소프트웨어’와 ‘오픈 소스 개발’의 가장 유명한 표본&lt;/li>
+&lt;li>다중 사용자, 다중 작업(멀티 태스킹), 다중 스레드를 지원하는 네트워크 운영 체제(NOS)로, 여러 사람이 하나의 리눅스 시스템에 접속하여 다수의 프로그램을 동시에 실행할 수 있다.&lt;/li>
+&lt;/ol>
+&lt;h3 id="사용-가능한-개발-언어와-database">사용 가능한 개발 언어와 Database&lt;/h3>
+&lt;blockquote>
+&lt;p>Language&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener"
+>C++&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%28%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4%29" target="_blank" rel="noopener"
+>Java&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/Perl" target="_blank" rel="noopener"
+>Perl&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/PHP" target="_blank" rel="noopener"
+>PHP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/Python" target="_blank" rel="noopener"
+>Python&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.ruby-lang.org/ko/about/" target="_blank" rel="noopener"
+>Ruby&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.lua.org/start.html" target="_blank" rel="noopener"
+>Lua&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/Go_%28%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4%29" target="_blank" rel="noopener"
+>Go&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>DataBase - DBMS&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4" target="_blank" rel="noopener"
+>Oracle&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/MySQL" target="_blank" rel="noopener"
+>MySQL&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/MariaDB" target="_blank" rel="noopener"
+>MariaDB&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/PostgreSQL" target="_blank" rel="noopener"
+>PostgresSQL&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/CUBRID" target="_blank" rel="noopener"
+>CUBRID&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%84%EB%93%9C_%28%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%29" target="_blank" rel="noopener"
+>Firebird&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>클린코드 제 1장</title><link>https://jeonjongyook.github.io/post/cleancode/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/cleancode/</guid><description>&lt;hr>
+&lt;h2 id="클린코드란-무엇인가">클린코드란 무엇인가?&lt;/h2>
+&lt;p>-&amp;gt; 읽기 쉬운 코드가 클린코드이다.&lt;/p>
+&lt;blockquote>
+&lt;p>C++의 창시자인 Bjarne Stroustrup은 클린코드를 다음과 같이 정의하였다.&lt;/p>
+&lt;p>코드가 우아하다는 의미는 군더더기 없이 깔끔하다는 의미이고,&lt;/p>
+&lt;p>효과적이라는 것은 기능을 수행하는 코드를 최대한 작은 라인으로 구현한다.&lt;/p>
+&lt;/blockquote>
+&lt;p>이처럼 클린코드는 프로그래머가 기한을 맞추기 위해 양산하는 나쁜 코드가 아니라
+코드를 최대한 깨끗하게 유지하여 사람도 읽기 쉽고 고치기도 쉬운 그런 코드를 말하게 된다.&lt;/p></description></item><item><title>개발블로그의 시작</title><link>https://jeonjongyook.github.io/post/start-devblog/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-devblog/</guid><description>&lt;h2 id="개발-블로그를-어떻게-시작하게-되었는가">개발 블로그를 어떻게 시작하게 되었는가?&lt;/h2>
+&lt;p>나는 나 자신에게 질문하는 것을 좋아한다.&lt;/p>
+&lt;p>그로 인해 평소에도 종종 비록 나에게 시덥지도 않은 질문일지라도 스스로 에게 묻는다.&lt;/p>
+&lt;p>&amp;ldquo;내가 하고 있는 이 행동들이 과연 현재와 미래의 나에게 도움이 될까?&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;취업이 먼저인가? 대학이 먼저인가?&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;자격증이 먼저인가? 하나라도 무언갈 만들어 실력을 키우는 것이 좋을까?&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;내가 정말 잘 하고 있는것인가? 아니라면 왜 아닌가?&amp;rdquo;&lt;/p>
+&lt;p>&amp;hellip; &amp;hellip; &amp;hellip;&lt;/p>
+&lt;p>등등 위와같은 질문들을 포함해서 그때그때 생각나는 질문을 나 자신에게 묻는다.&lt;/p>
+&lt;p>바로 질문에 대답을 할 수는 없다.&lt;/p>
+&lt;p>하지만 시간이 지나갈 수록 그 질문에 관한 답변을 해 나아가는 것이 내 목표이다.&lt;/p>
+&lt;h2 id="앞으로의-목표와-계획은">앞으로의 목표와 계획은?&lt;/h2>
+&lt;p>계속 이 블로그를 운영하고 게시글을 작성하는 사람으로서,&lt;/p>
+&lt;p>또한 한명의 개발자로서 더욱더 성장할 수 있는 계기가 될 수 있도록 할 것이고,&lt;/p>
+&lt;p>내용들을 더 추가해 나아가면서 내 Tech Stack에 기여를 할 수 있도록 할 것이다.&lt;/p></description></item><item><title>고등학교 생활의 시작</title><link>https://jeonjongyook.github.io/post/school-life/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/school-life/</guid><description>&lt;h2 id="1학년">1학년&lt;/h2>
+&lt;h3 id="1학년때의-이야기">1학년때의 이야기&lt;/h3>
+&lt;p>이제 고등학교라는 곳에 처음 들어와 어딘지 잘 모르고 헤맸던 시기, 취업이 뭔지, 자격증이 뭔지, 방과후에 MDP까지 너무 힘들다고 생각했다. 개발 공부의 초기라 아무것도 몰랐던 시기이다.&lt;/p>
+&lt;h2 id="2학년">2학년&lt;/h2>
+&lt;h3 id="2학년때의-이야기">2학년때의 이야기&lt;/h3>
+&lt;p>불과 고등학교에 들어온지 벌써 1년이 넘는 시간이 흐른 2021년, 나는 어느새 많이 성장했고,
+코드를 보는 능력, 코드를 작성하는 능력까지 실력이 많이 늘었다고 생각한다. 이쯤되면 난 정말 잘한다고 생각하는 어깨의 뽕(?)이 들어간 시기이다.&lt;/p>
+&lt;h2 id="3학년">3학년&lt;/h2>
+&lt;h3 id="3학년때의-이야기">3학년때의 이야기&lt;/h3>
+&lt;p>이제 어엿한 고등학교 3학년 학생이자, 취업 준비생 이기도 하다.
+정말 1학년의 아무것도 모르던 과거의 나와 비교해 3학년의 나는 정말 많이 성장했다.
+내 주변의 사람들이 없었다면 지금까지의 나는 정말 상상도 못할 사람이 되었다.&lt;/p></description></item><item><title>웹개발 자율 전공 동아리의 시작</title><link>https://jeonjongyook.github.io/post/start-club-admin/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-club-admin/</guid><description>&lt;img src="https://jeonjongyook.github.io/post/start-club-admin/cover.png" alt="Featured image of post 웹개발 자율 전공 동아리의 시작" />&lt;h2 id="자율전공동아리란">자율전공동아리란?&lt;/h2>
+&lt;p>지금까지 자신이 배운 전공실력을 맘껏 발휘하고 평소에 자신이 제작(창작)하고 싶어했던 프로젝트나 개발서비스 등을 맘껏 기획하여&lt;/p>
+&lt;p>처음부터 끝까지 스스로 공부하며 개발해보며 본인도 성장하고 자습시간을 활용하여 남을 가르쳐줌으로써 뿌듯함, 전공 및 개발 실력을 동시에 느낄 수 있는 일석이조의 대명사.&lt;/p>
+&lt;p>2021년을 시작으로 현재 2022년에는 웹개발 자율전공동아리, WWW를 기획하고 운영하며 학교를 졸업한 선배님들을 대상으로 강사를 초청하여&lt;/p>
+&lt;p>평소에는 배우지 못했던 직접 현장의 근무하는 실무(개발)자의 조언도 같이 들으며 취업 준비에도 도움이 되는 아주 유용한 동아리 이다.&lt;/p>
+&lt;h2 id="그래서-현재는">그래서 현재는?&lt;/h2>
+&lt;p>현재는 웹개발 자율전공동아리 회장으로써 강사(졸업하신 선배님)분들을 초청하여 2학년 후배들과 같은 학년인 친구들에게 열심히 수업을 하며 가르쳐 주고 있다.&lt;/p>
+&lt;h2 id="앞으로-추진-방향성">앞으로 추진 방향성?&lt;/h2>
+&lt;p>웹개발 자율전공동아리 이름 그대로 자유롭고 전공적으로 많은 것을 배우고 경험할 수 있는 동아리가 될 수 있도록
+후배들에게 많은 것을 가르쳐주고 떠날예정이다(?).&lt;/p>
+&lt;h2 id="느낀점">느낀점&lt;/h2>
+&lt;p>고등학교에서 자율전공동아리를 처음 계획하고 만들어가기 시작한 나로서는, 학교에서 있었던 3년중 가장 뿌듯한 일중의 하나가 아닐까 싶다.&lt;/p>
+&lt;p>하면서 힘든일도 엄청 많았지만 그런 힘든일들을 차분히 해결해 나아가다 보니 자연스레 벌써 취업할 시간이 되어 버려 시간이 조금만 더 있었으면 어떨까 싶다.&lt;/p></description></item><item><title>프론트엔드 주니어 개발자로서 준비해야할 사항들</title><link>https://jeonjongyook.github.io/post/job-preparation/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/job-preparation/</guid><description>&lt;h2 id="취업-준비의-첫-발판">취업 준비의 첫 발판&lt;/h2>
+&lt;p>취업준비라고 하면 나는 정말 쉬울 것이라 생각했지만
+절대 그것이 아니였다. 절대.&lt;/p>
+&lt;p>학생의 신분으로 학교에 소속되어 학교에서 모든 일들을 대신해주니 나는 정말 편했었다. 이 편함이 언제까지일 지는 모르지만 말이다.&lt;/p>
+&lt;ol>
+&lt;li>자기소개서&lt;/li>
+&lt;li>포트폴리오&lt;/li>
+&lt;li>면접&lt;/li>
+&lt;/ol>
+&lt;p>이 세가지가 평범한 취업 준비인데, 나는 위 3가지중 면접이라고 생각한다.&lt;/p>
+&lt;p>어쩌면 나라는 사람을 다른 삶을 살아온 사람들에게 보여주는 기회라고 생각한다.&lt;/p>
+&lt;p>면접에서 가장 중요한 것은 앞에 면접관으로 나온 사람들에게 절대 내가 긴장했다는 것을 보여주지 말아야 한다.&lt;/p></description></item><item><title>북마크</title><link>https://jeonjongyook.github.io/bookmarks/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/bookmarks/</guid><description/></item><item><title>Vue.js</title><link>https://jeonjongyook.github.io/post/start-vue/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-vue/</guid><description>&lt;hr>
+&lt;h2 id="component-registration">Component Registration&lt;/h2>
+&lt;p>vue component 를 global component로 만들기&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">Vue&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;vue&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">upperFirst&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;lodash/upperFirst&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">camelCase&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;lodash/camelCase&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">requireComponent&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">require&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;.&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="sr">/base-[\w-].vue$/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">requireComponent&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">keys&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="nx">forEach&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Get component config
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">componentConfig&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">requireComponent&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Get PascalCase name of component
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">componentName&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">upperFirst&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">camelCase&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sr">/^\.\//&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sr">/\.\w+$/&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Register component globally
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="nx">Vue&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">component&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">componentName&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">componentConfig&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="k">default&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="nx">componentConfig&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="module-registration">Module Registration&lt;/h2>
+&lt;p>vuex module 등록&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">camelCase&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;lodash/camelCase&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">requireModule&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">require&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;.&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="sr">/\.js$/&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">modules&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">requireModule&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">keys&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="nx">forEach&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Don&amp;#39;t register ths file as a vuex module
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span> &lt;span class="o">===&lt;/span> &lt;span class="s1">&amp;#39;./index.js&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">return&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">moduleName&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">camelCase&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sr">/(\.\/|\.js)/&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">modules&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">moduleName&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">namespaced&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">...&lt;/span>&lt;span class="nx">requireModule&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">fileName&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="nx">modules&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="single-root-components">Single-Root Components&lt;/h2>
+&lt;p>template 안에 root element가 하나 있어야 한다. 하지만 이것이 불필요하게 느껴질 경우에 functional component를 이용해서 처리하는 방법이 있다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">template&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">ul&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">NavBarRoutes&lt;/span> &lt;span class="o">:&lt;/span>&lt;span class="nx">routes&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;persistentNavRoutes&amp;#34;&lt;/span>&lt;span class="o">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">NavBarRoutes&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">v&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;logedIn&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">:&lt;/span>&lt;span class="nx">routes&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;persistentNavRoutes&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">NavBarRoutes&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">v&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">:&lt;/span>&lt;span class="nx">routes&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;persistentNavRoutes&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/ul&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/template&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">NavBarRoutes&lt;/span> &lt;span class="nx">component&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">functional&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">render&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">h&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">})&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">routes&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">map&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">route&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">li&lt;/span> &lt;span class="nx">key&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nx">route&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">name&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">router&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nx">link&lt;/span> &lt;span class="nx">to&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nx">route&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>&lt;span class="nx">route&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">title&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/route-link&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/li&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="transparent-wrappers">Transparent Wrappers&lt;/h2>
+&lt;p>inheritAttrs, vm.$attrs, vm.$listeners를 이용하면 wrapper component를 쉽게 만들 수 있다.&lt;/p>
+&lt;p>@focus 부분에 .native를 붙이면 자식 컴포넌트에서 vm.$listeners 로 전달 받지 못하기 때문에 붙이면 안된다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">BaseInput&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">placeholder&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Waht&amp;#39;s your name?&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">@&lt;/span>&lt;span class="nx">focus&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;doSomething&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">BaseInput&lt;/span> &lt;span class="nx">component&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">template&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">label&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{{&lt;/span> &lt;span class="nx">label&lt;/span> &lt;span class="p">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">input&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">V&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nx">bind&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;$attrs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">:&lt;/span>&lt;span class="nx">value&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;value&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">v&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nx">on&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;listeners&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;gt;&amp;lt;&lt;/span>&lt;span class="err">/input&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/label&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/template&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">inheritAttrs&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">computed&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">listeners&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">...&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">$listeners&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">input&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">event&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">$emit&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;input&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">event&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">value&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>참고 영상 : &lt;a class="link" href="https://youtu.be/7lpemgMhi0k?t=2" target="_blank" rel="noopener"
+>https://youtu.be/7lpemgMhi0k?t=2&lt;/a>&lt;/p></description></item><item><title>세미콜론(Semicolon) - 누구나, 다같이</title><link>https://jeonjongyook.github.io/post/start-service/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/post/start-service/</guid><description>&lt;h2 id="q--개발을-어쩌다가-하게-되셨나요">Q : 개발을 어쩌다가 하게 되셨나요?&lt;/h2>
+&lt;p>고등학교 친구들끼리 모여 SNS를 만들겠다고
+서로 아무것도 모르고 시작한 프로젝트 입니다.
+하지만 앞으로 꾸준히 업데이트 할 예정이니 지켜봐 주세요!&lt;/p>
+&lt;h2 id="q--vuejs라는-언어를-굳이-사용하신-이유가-뭘까요">Q : vue.js라는 언어를 굳이 사용하신 이유가 뭘까요?&lt;/h2>
+&lt;p>우선 FE쪽에서 vue와 react, Angular 등의 다양한 선택지가 있었지만
+vue.js의 이름부터 딱 끌렸고, 도전정신과 공부하는 자세로 임해보자라는 마인드로 언어를 선택하게 되었습니다!&lt;/p></description></item><item><title>검색하기</title><link>https://jeonjongyook.github.io/%EA%B2%80%EC%83%89%ED%95%98%EA%B8%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/%EA%B2%80%EC%83%89%ED%95%98%EA%B8%B0/</guid><description/></item><item><title>참고자료 모음집</title><link>https://jeonjongyook.github.io/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C-%EB%AA%A8%EC%9D%8C%EC%A7%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C-%EB%AA%A8%EC%9D%8C%EC%A7%91/</guid><description>&lt;h2 id="linux">Linux&lt;/h2>
+&lt;h4 id="vim-시작하기httpsopentutorialsorgcourse7304559">&lt;a class="link" href="https://opentutorials.org/course/730/4559" target="_blank" rel="noopener"
+>Vim 시작하기&lt;/a>&lt;/h4>
+&lt;h4 id="mdn-시작하기httpsdevelopermozillaorgko">&lt;a class="link" href="https://developer.mozilla.org/ko" target="_blank" rel="noopener"
+>MDN 시작하기&lt;/a>&lt;/h4></description></item></channel></rss>

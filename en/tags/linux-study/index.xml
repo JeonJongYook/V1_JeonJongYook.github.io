@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux Study on Jongwook's dev blog</title><link>https://jeonjongyook.github.io/en/tags/linux-study/</link><description>Recent content in Linux Study on Jongwook's dev blog</description><generator>Hugo -- gohugo.io</generator><language>ko-KR</language><lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jeonjongyook.github.io/en/tags/linux-study/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux Chapter</title><link>https://jeonjongyook.github.io/en/post/start-linux2-en/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/en/post/start-linux2-en/</guid><description>&lt;hr>
+&lt;h3 id="access-the-linux-ubuntu-official-website">Access the Linux (Ubuntu) official website&lt;/h3>
+&lt;p>Preparing a USB required for booting (more than 16GB) formatting with quick format&lt;/p>
+&lt;h3 id="download-the-iso-file-for-installation-from-the-ubuntu-site">Download the iso file for installation from the Ubuntu site&lt;/h3>
+&lt;p>&lt;a class="link" href="https://ubuntu.com/#download" target="_blank" rel="noopener"
+>URL&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://jeonjongyook.github.io/en/post/start-linux2-en/homepage.png"
+width="254"
+height="203"
+srcset="https://jeonjongyook.github.io/en/post/start-linux2-en/homepage_hu4d0207d2b3583a334742276f2d174a0c_5944_480x0_resize_box_3.png 480w, https://jeonjongyook.github.io/en/post/start-linux2-en/homepage_hu4d0207d2b3583a334742276f2d174a0c_5944_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Reference photo"
+class="gallery-image"
+data-flex-grow="125"
+data-flex-basis="300px"
+>&lt;/p>
+&lt;p>As of July 19, 2022&lt;/p>
+&lt;p>Download file information: 3.4G&lt;/p>
+&lt;h3 id="after-downloading-the-usb-installer-run-the-installation-file">After downloading the USB installer, run the installation file&lt;/h3>
+&lt;p>&lt;a class="link" href="https://universal-usb-installer.kr.uptodown.com/windows/download" target="_blank" rel="noopener"
+>URL&lt;/a>
+&lt;img src="https://jeonjongyook.github.io/en/post/start-linux2-en/homepage2.png"
+width="763"
+height="553"
+srcset="https://jeonjongyook.github.io/en/post/start-linux2-en/homepage2_hu063150f5ecc6a24890033b5b3fe67f44_213624_480x0_resize_box_3.png 480w, https://jeonjongyook.github.io/en/post/start-linux2-en/homepage2_hu063150f5ecc6a24890033b5b3fe67f44_213624_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Reference photo"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="331px"
+>&lt;/p>
+&lt;h3 id="disk-drive-configuration-and-capacity-allocation-for-linux-installation">Disk drive configuration and capacity allocation for Linux installation&lt;/h3>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Go to Control Panel and click System and Security - Administrative Tools Create and format hard disk partitions.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>It may vary depending on the purpose, but if you do not intend to use the OS for a professional server, it is okay to allocate about 60 gigabytes allocated to the existing C drive and use it as a disk for Linux (minimum requirements are satisfied)&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>After selecting the existing C drive, right-click and click the Shrink Volume menu.&lt;/li>
+&lt;li>Enter 60 GB (60000) in the space to shrink field (it may be different for each PC)&lt;/li>
+&lt;li>Changing Secure Boot option in Window OS Shutdown Settings and BIOS Setup&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Control Panel &amp;gt; Hardware and Sound &amp;gt; Power Options &amp;gt; System Settings&lt;/li>
+&lt;li>Turn off fast startup (OFF)&lt;/li>
+&lt;/ul>
+&lt;ol start="5">
+&lt;li>After restarting Window, press F2 repeatedly (it may be different for each PC)&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Security -&amp;gt; Secure Boot Configuration&lt;/li>
+&lt;li>Change Secure Boot Option to Disabled&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
+&lt;li>Change boot priority in BIOS menu after restart&lt;/li>
+&lt;li>Change the priority so that the USB for Linux OS installation has priority 1 in the BIOS menu and save.&lt;/li>
+&lt;li>Click Install Ubuntu and click Korean in the language selection box.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://dreamdeveloper403.tistory.com/28?category=824174" target="_blank" rel="noopener"
+>Reference Link&lt;/a>&lt;/p></description></item><item><title>Linux Chapter</title><link>https://jeonjongyook.github.io/en/post/start-linux-en/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://jeonjongyook.github.io/en/post/start-linux-en/</guid><description>&lt;hr>
+&lt;h2 id="linux">Linux&lt;/h2>
+&lt;p>Linux is a type of computer operating system and refers to the kernel itself.&lt;/p>
+&lt;h3 id="note">Note&lt;/h3>
+&lt;ol>
+&lt;li>The most famous examples of &amp;lsquo;free software&amp;rsquo; and &amp;lsquo;open source development&amp;rsquo;, where the source code is open&lt;/li>
+&lt;li>It is a network operating system (NOS) that supports multi-user, multi-task, multi-thread, allowing multiple people to connect to a single Linux system and run multiple programs simultaneously.&lt;/li>
+&lt;/ol>
+&lt;h3 id="사용-가능한-개발-언어와-database">사용 가능한 개발 언어와 Database&lt;/h3>
+&lt;blockquote>
+&lt;p>Language&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener"
+>C++&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%28%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4%29" target="_blank" rel="noopener"
+>Java&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/Perl" target="_blank" rel="noopener"
+>Perl&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/PHP" target="_blank" rel="noopener"
+>PHP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/Python" target="_blank" rel="noopener"
+>Python&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.ruby-lang.org/ko/about/" target="_blank" rel="noopener"
+>Ruby&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.lua.org/start.html" target="_blank" rel="noopener"
+>Lua&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/Go_%28%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4%29" target="_blank" rel="noopener"
+>Go&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>DataBase - DBMS&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4" target="_blank" rel="noopener"
+>Oracle&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/MySQL" target="_blank" rel="noopener"
+>MySQL&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/MariaDB" target="_blank" rel="noopener"
+>MariaDB&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/PostgreSQL" target="_blank" rel="noopener"
+>PostgresSQL&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/CUBRID" target="_blank" rel="noopener"
+>CUBRID&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%84%EB%93%9C_%28%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%29" target="_blank" rel="noopener"
+>Firebird&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
